@@ -10,6 +10,7 @@ require "integrity/notifier/email"
 # require "integrity/notifier/irc"
 # = Campfire
 # require "integrity/notifier/campfire"
+require "integrity/notifier/talker"
 require "integrity/notifier/deploy"
 
 Integrity.configure do |c|
